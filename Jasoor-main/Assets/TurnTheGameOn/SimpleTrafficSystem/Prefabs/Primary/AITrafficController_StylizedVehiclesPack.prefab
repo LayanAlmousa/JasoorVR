@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6626368814616383543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6626368814616383545}
+  - component: {fileID: 6626368814616383546}
+  m_Layer: 0
+  m_Name: AITrafficController_StylizedVehiclesPack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6626368814616383545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6626368814616383543}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6626368814616383546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6626368814616383543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c342c37dd3443c68a815fa69ec4a043, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trafficPrefabs:
+  - {fileID: 7483573235621646244, guid: c8b89c572a5a11547891cdcea641b27b, type: 3}
+  - {fileID: 8504236193846800253, guid: cfc9d308c97a9714abe477aa91b3477b, type: 3}
+  - {fileID: 3042724099636600815, guid: 2b4177c04bcdb404a8a364f818c83dd8, type: 3}
+  - {fileID: 5118646763871150299, guid: 214ec945d7d2c1047a9414b984dd4ee9, type: 3}
+  - {fileID: 5963182014077944599, guid: 54d7bad36d38faf48b7d4ea8ab8d4311, type: 3}
+  - {fileID: 3187415512611451367, guid: 92f20f277deb3444fbf313e063520fc3, type: 3}
+  - {fileID: 8995031696602302389, guid: f69c6d6c851f69342ae026c43599ed20, type: 3}
+  - {fileID: 3214727715220592272, guid: 8ecf30f906e3ebf46981aa0c32c2a12c, type: 3}
+  - {fileID: 2859557612215831680, guid: 1eb556b7bf20e024989a09b22116bea6, type: 3}
+  - {fileID: 936306182457318325, guid: a2a861cc5f4be424ebe8c7865d138905, type: 3}
+  - {fileID: 2559060496814576451, guid: b86004962340b2143a6e7cceab3727c4, type: 3}
+  - {fileID: 5444913495785289848, guid: 4cc72d170c1d8544dbfd88100e94fb09, type: 3}
+  - {fileID: 7224675508209888157, guid: 32d3734c7bb2a784f9d3169e0f89c9ea, type: 3}
+  - {fileID: 3852228401253587448, guid: 6933042cb9b042644b4b777ac8645ae9, type: 3}
+  - {fileID: 1739245816842182708, guid: 2843113b445d3f844a162e7e136eac38, type: 3}
+  - {fileID: 6833838764612006474, guid: b78dd4e98dedb7247a3ada030e2b4df1, type: 3}
+  - {fileID: 5844366303384681094, guid: a4e55bdf7c94c1f438a93862309098a3, type: 3}
+  - {fileID: 3855298450338427582, guid: fa1757b937a6ee647bb49944e7b9950f, type: 3}
+  - {fileID: 8037415303339771795, guid: 31b63cfae994557458145c26b81d5ca0, type: 3}
+  - {fileID: 7337385652505237064, guid: 92b42680a66cdd94697363756daeb1ae, type: 3}
+  - {fileID: 5078957314796980631, guid: b92001f3763a9ac4fb1c44d038699e9c, type: 3}
+  - {fileID: 1687011606847040210, guid: 0109afb524cfd0541a65be0634f1d5be, type: 3}
+  - {fileID: 8467407590248259827, guid: 886ec60a6f556124a9682422afb990b6, type: 3}
+  - {fileID: 5174584392043450870, guid: 6e2e56d015797fe4d8b60dc2b330ad98, type: 3}
+  - {fileID: 7429091890862560226, guid: a975666ab43ae554d817df94a8fdbcb9, type: 3}
+  - {fileID: 1907874370455830154, guid: 7fd8a9e6e76b8eb48b36e044298c795d, type: 3}
+  - {fileID: 7365131438475305819, guid: 44e24f99a969bb54dad711cd45fd94b9, type: 3}
+  - {fileID: 8101474666621916464, guid: f71cc5d3c3c3cc645acf903978ee8f47, type: 3}
+  - {fileID: 7073180553311088245, guid: 06b981ca3cef1574ca14dee24bdf669d, type: 3}
+  - {fileID: 1585100407991533913, guid: 8d6555d3f2196bd4694088fce0811997, type: 3}
+  - {fileID: 763232238297426543, guid: 9358ef7429e2638458d15de475afb660, type: 3}
+  useYieldTriggers: 0
+  speedMultiplier: 2.2369363
+  steerSensitivity: 0.04
+  maxSteerAngle: 40
+  stopThreshold: 2
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 1073741824
+  frontSensorSize: {x: 1.3, y: 1, z: 0.001}
+  useLaneChanging: 0
+  changeLaneTrigger: 3
+  minSpeedToChangeLanes: 10
+  changeLaneCooldown: 5
+  unassignedBrakeMaterial: {fileID: 2100000, guid: acfce65dffe21b34f922bf65fc07bc05,
+    type: 2}
+  setCarParent: 0
+  carParent: {fileID: 0}
+  usePooling: 0
+  centerPoint: {fileID: 0}
+  useRouteLimit: 0
+  density: 200
+  spawnRate: 2
+  minSpawnZone: 50
+  cullHeadLight: 100
+  actizeZone: 225
+  spawnZone: 350
