@@ -7,6 +7,6 @@ public class nexttoinstructions : MonoBehaviour
 {
     public void Playnext()
     {
-        SceneManager.LoadSceneAsync("scene after ready button"); //playnextscene
+        SceneManager.LoadSceneAsync("instructionspage"); //playnextscene
     }
 }
