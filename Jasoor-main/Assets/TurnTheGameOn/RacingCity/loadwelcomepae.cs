@@ -6,6 +6,6 @@ public class loadwelcomepae : MonoBehaviour
 {
      public void Playnext()
     {
-        SceneManager.LoadSceneAsync("Welcome to Jasoor"); //backscene
+        SceneManager.LoadSceneAsync("WelcometoJasoor"); //backscene
     }
 }

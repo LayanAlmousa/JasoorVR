@@ -10,7 +10,8 @@ public class carControl : MonoBehaviour
 {
 
     public WheelCollider[] wheels = new WheelCollider[4];
-    public InputActionReference trigger;
+    public InputActionReference rightTrigger;
+    public InputActionReference leftTrigger;
     public XRKnob knob;
     public bool isPressed = false;
     public float motorTorque;
@@ -25,7 +26,7 @@ public class carControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (trigger.action.WasPressedThisFrame())
+        if (rightTrigger.action.WasPressedThisFrame())
         {
             for(int i=0; i<wheels.Length; i++)
             {
@@ -34,7 +35,7 @@ public class carControl : MonoBehaviour
 
             }
         }
-        if (trigger.action.WasReleasedThisFrame())
+        if (rightTrigger.action.WasReleasedThisFrame())
         {
             for (int i = 0; i < wheels.Length; i++)
             {
@@ -42,11 +43,27 @@ public class carControl : MonoBehaviour
 
             }
         }
-        for(int i = 0; i<wheels.Length; i++)
+        if (leftTrigger.action.WasPressedThisFrame())
         {
-            wheels[i].steerAngle = (knob.value - 0.5f) * 120f;
+            for (int i = 0; i < wheels.Length; i++)
+            {
+                wheels[i].motorTorque = 0;
+                wheels[i].brakeTorque = breakTorque;
 
-
+            }
         }
+        if (leftTrigger.action.WasReleasedThisFrame())
+        {
+            for (int i = 0; i < wheels.Length; i++)
+            {
+                wheels[i].motorTorque = motorTorque;
+
+            }
+        }
+        
+        // Apply steering to front wheels only
+        wheels[0].steerAngle = (knob.value - 0.5f) * steeringMax;
+        wheels[1].steerAngle = (knob.value - 0.5f) * steeringMax;
+
     }
 }
