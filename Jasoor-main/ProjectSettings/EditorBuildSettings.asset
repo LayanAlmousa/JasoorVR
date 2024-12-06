@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/TurnTheGameOn/RacingCity/Welcome to Jasoor.unity
     guid: c0b8cc15ed854b44db24ff4c62f53ef1
-  - enabled: 0
+  - enabled: 1
     path: Assets/TurnTheGameOn/RacingCity/WelcometoJasoor.unity
     guid: 4af800723f4e921409c55d03a12034c4
-  - enabled: 0
+  - enabled: 1
     path: Assets/TurnTheGameOn/RacingCity/instructionspage.unity
     guid: 31a9d39f01d8cda459d39a4710c2d48f
   - enabled: 1
