@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "562164802143",
+    "project_id": "jasoortest",
+    "storage_bucket": "jasoortest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562164802143:android:0518fca5eaedd6ecccf1ea",
+        "android_client_info": {
+          "package_name": "com.DefaultCompant.Jasoor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAArv5pONa9qqhsqTfphk6ylS0QzZO4TkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562164802143:android:10c15daae4ab8d7cccf1ea",
+        "android_client_info": {
+          "package_name": "com.mycompany.jasoor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAArv5pONa9qqhsqTfphk6ylS0QzZO4TkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
